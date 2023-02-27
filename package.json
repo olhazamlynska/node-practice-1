@@ -1,0 +1,25 @@
+{
+  "name": "practice-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "cross-env olya=pizza anya=chiken PORT=5000 NODE_ENV=developement node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olhazamlynska/node-practice-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olhazamlynska/node-practice-1/issues"
+  },
+  "homepage": "https://github.com/olhazamlynska/node-practice-1#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
